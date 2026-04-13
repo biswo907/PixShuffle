@@ -1,50 +1,115 @@
-# Welcome to your Expo app 👋
+# 📸 PixShuffle
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<div align="center">
+  <img src="./assets/images/banner.png" alt="PixShuffle Banner" width="100%">
+  
+  <p align="center">
+    <strong>A premium, high-performance image gallery experience for discovery and inspiration.</strong>
+  </p>
 
-## Get started
+  [![Expo](https://img.shields.io/badge/Expo-54.0-000020?style=for-the-badge&logo=expo&logoColor=white)](https://expo.dev)
+  [![React Native](https://img.shields.io/badge/React_Native-0.81.5-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactnative.dev)
+  [![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+</div>
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## ✨ Overview
 
-2. Start the app
+**PixShuffle** is a state-of-the-art image discovery application built with the Expo ecosystem. It combines a sleek, modern UI with cutting-edge performance features to provide a seamless catalog of high-quality photography. Whether you're looking for inspiration or just browsing, PixShuffle offers a fluid, gesture-driven experience that feels at home on any device.
 
-   ```bash
-   npx expo start
-   ```
+Developed with precision and care by **[Biswo (biswo907)](https://github.com/biswo907)**.
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🚀 Premium Features
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### 🖼️ Elite Visuals & Performance
+- **Infinite Discovery Feed**: Explore thousands of high-resolution images from the Picsum API with optimized lazy loading.
+- **Next-Gen Image Caching**: Powered by `expo-image` for lightning-fast loading, smooth opacity transitions, and reduced memory overhead.
+- **Smart Skeleton Loaders**: Content-aware shimmer animations that provide a polished, "high label" feel during data fetching.
 
-## Get a fresh project
+### 🎨 Stunning UI/UX
+- **Interactive Modals**: A rich detail view for every image, presenting resolution, author metadata, and quick action bars.
+- **Dynamic Themes**: Native Dark and Light mode support with persistent user preference storage.
+- **Fluid Motion**: Built with `react-native-reanimated` for smooth layout transitions and entering animations.
+- **Haptic Feedback**: Meaningful tactile responses integrated into every major interaction.
 
-When you're ready, run:
+### 🛠️ Native Integration
+- **Direct Save**: Download any image directly to your device's local gallery via `expo-media-library`.
+- **Instant Sharing**: Share inspiration on the fly using the native iOS/Android sharing sheets.
+- **Personal Collection**: A dedicated "Favorites" suite to curate and manage your most-loved photos.
 
-```bash
-npm run reset-project
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+| :--- | :--- |
+| **Expo SDK 54** | Core platform and native module integration |
+| **React Native 0.81** | Cross-platform framework for iOS and Android |
+| **Expo Router** | Revolutionary file-based routing and navigation |
+| **Reanimated** | High-performance gesture and animation engine |
+| **Expo Image** | High-performance image rendering and caching |
+| **AsyncStorage** | Local persistence for themes and favorites |
+| **Native APIs** | Media Library, Sharing, Haptics, and File System |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Install **Node.js** (LTS)
+- Install the **Expo Go** app on your physical device for the best experience.
+
+### Installation
+1.  **Clone the Repository**
+    ```bash
+    git clone https://github.com/biswo907/PixShuffle.git
+    cd PixShuffle
+    ```
+2.  **Install Dependencies**
+    ```bash
+    npm install
+    ```
+3.  **Launch the App**
+    ```bash
+    npx expo start
+    ```
+
+### Running on Devices
+- **iOS/Android**: Scan the QR code in your terminal using the Expo Go app.
+- **Web**: Press `w` in the terminal to view the web-optimized version.
+
+---
+
+## 📂 Project Structure
+
+```text
+├── app/               # Main application screens (Expo Router)
+│   ├── index.tsx      # Main Gallery feed
+│   └── favorites.tsx  # Personal collection view
+├── components/        # Reusable UI architecture
+│   ├── ImageDetailModal.tsx
+│   ├── ShimmerSkeleton.tsx
+│   └── PageWrapper.tsx
+├── constants/         # Theming and design tokens
+├── utils/             # Cross-platform utilities (toasts, handlers)
+└── assets/            # High-fidelity static assets & logos
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 📄 License
 
-To learn more about developing your project with Expo, look at the following resources:
+Distributed under the **MIT License**. See [`LICENSE`](./LICENSE) for more information.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+<div align="center">
+  <p>Built with ❤️ by <strong>Biswo</strong></p>
+  <a href="https://github.com/biswo907">
+    <img src="https://img.shields.io/badge/Follow-biswo907-181717?style=social&logo=github" alt="Follow Biswo">
+  </a>
+</div>
