@@ -12,7 +12,7 @@
       "policy": "appVersion"
     },
     "updates": {
-      "url": "https://u.expo.dev/ba8be777-c700-45b2-bb1f-ad819d7a8c00"
+      "url": "https://u.expo.dev/737b297b-e567-4a6f-a373-cbe20db4917c"
     },
     "ios": {
       "supportsTablet": true
@@ -61,7 +61,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "ba8be777-c700-45b2-bb1f-ad819d7a8c00"
+        "projectId": "737b297b-e567-4a6f-a373-cbe20db4917c"
       },
       "router": {}
     },

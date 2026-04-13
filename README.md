@@ -40,6 +40,7 @@ Developed with precision and care by **[Biswo (biswo907)](https://github.com/bis
 - **Direct Save**: Download any image directly to your device's local gallery via `expo-media-library`.
 - **Instant Sharing**: Share inspiration on the fly using the native iOS/Android sharing sheets.
 - **Personal Collection**: A dedicated "Favorites" suite to curate and manage your most-loved photos.
+- **OTA Updates**: Stay up-to-date with the latest features and fixes seamlessly via Expo EAS Updates.
 
 ---
 
@@ -53,6 +54,7 @@ Developed with precision and care by **[Biswo (biswo907)](https://github.com/bis
 | **Reanimated** | High-performance gesture and animation engine |
 | **Expo Image** | High-performance image rendering and caching |
 | **AsyncStorage** | Local persistence for themes and favorites |
+| **Expo Updates** | Over-The-Air (OTA) update delivery and management |
 | **Native APIs** | Media Library, Sharing, Haptics, and File System |
 
 ---
@@ -84,6 +86,16 @@ Developed with precision and care by **[Biswo (biswo907)](https://github.com/bis
 
 ---
 
+## 🔄 App Updates (EAS)
+
+PixShuffle is configured with **Expo EAS Updates**, allowing for seamless, over-the-air improvements without requiring manual store updates. 
+
+- **Automated Checks**: The app automatically checks for updates on launch.
+- **Seamless Delivery**: High-priority fixes and new features are delivered through dedicated Expo channels.
+- **User-Friendly UI**: A custom update modal keeps you informed when a fresh experience is being applied.
+
+---
+
 ## 📂 Project Structure
 
 ```text
@@ -93,8 +105,11 @@ Developed with precision and care by **[Biswo (biswo907)](https://github.com/bis
 ├── components/        # Reusable UI architecture
 │   ├── ImageDetailModal.tsx
 │   ├── ShimmerSkeleton.tsx
+│   ├── UpdateModal.tsx    # Premium update notification UI
 │   └── PageWrapper.tsx
 ├── constants/         # Theming and design tokens
+├── hooks/             # Custom React hooks
+│   └── UpdateHandler.tsx  # OTA update logic & lifecycle
 ├── utils/             # Cross-platform utilities (toasts, handlers)
 └── assets/            # High-fidelity static assets & logos
 ```
